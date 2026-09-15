@@ -1,0 +1,51 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# TensorFlow and model cache
+.cache/
+.keras/
+checkpoints/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated vehicle images
+database_detected_vehicles_images/
+database_detected_vehicles_images/*
+detected_vehicles_images/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Unnecessary TensorFlow checkpoint files
+ssdlite_mobilenet_v2_coco_2018_05_09/checkpoint
+ssdlite_mobilenet_v2_coco_2018_05_09/model.ckpt.*
+ssdlite_mobilenet_v2_coco_2018_05_09/saved_model/
